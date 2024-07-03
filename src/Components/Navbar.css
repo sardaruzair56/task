@@ -1,0 +1,18 @@
+.font-Rubik {
+    font-family: 'Rubik';
+  }
+  
+  .hover-underline::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width 0.3s;
+  }
+  
+  .hover-underline:hover::after {
+    width: 100%;
+  }
+
+  
